@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="driver">معلومات</string>
+    <string name="information">السائق</string>
+    <string name="driver_email">البريد الالكتروني للسائق</string>
+    <string name="driver_mobile">هاتف السائق</string>
+    <string name="driver_license">رخصة السائق</string>
+    <string name="vehicle_info">معلومات الباص</string>
+    <string name="vehicle_id">رقم الباص:</string>
+    <string name="vehicle_model">موديل الباص:</string>
+    <string name="license_plate">نمرة الباص:</string>
+    <string name="vehicle_color">لون الباص:</string>
+    <string name="my">صفحتي</string>
+    <string name="profile">الشخصية</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="location">العنوان</string>
+    <string name="parent_email">البريد الالكتروني</string>
+    <string name="edit_location">تغيير العنوان</string>
+    <string name="mobile">الهاتف</string>
+    <string name="save">حفظ</string>
+
+
+</resources>

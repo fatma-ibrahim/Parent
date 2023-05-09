@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/back2"
+        tools:context="org.code.parentsplashscreen.ui.DriverFragment">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/header"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:background="@color/purple_200"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/driver_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:fontFamily="@font/rubik_light"
+                    android:text="@string/driver"
+                    android:textColor="@color/white"
+                    android:textSize="32dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/information_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:fontFamily="@font/rubik_medium"
+                    android:text="@string/information"
+                    android:textColor="@color/white"
+                    android:textSize="32dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/driver_txt" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_view_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_140sdp"
+                    android:layout_marginStart="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_16sdp"
+                    android:backgroundTint="@color/background_color"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_16sdp"
+                    app:cardElevation="@dimen/_20sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/information_txt">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/driver_image"
+                            android:layout_width="96dp"
+                            android:layout_height="96dp"
+                            android:src="@drawable/user_profile"
+                            app:civ_border_color="@color/purple_200"
+                            app:civ_border_width="2dp"
+                            app:civ_circle_background_color="@color/purple_200"
+                            app:layout_constraintBottom_toTopOf="@id/name_text"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/name_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_8sdp"
+                            android:fontFamily="@font/rubik_light"
+                            android:text="Name"
+                            android:textColor="@color/purple_200"
+                            android:textSize="@dimen/_12sdp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/driver_image" />
+
+                        <TextView
+                            android:id="@+id/id_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_2sdp"
+                            android:fontFamily="@font/rubik_light"
+                            android:text="ID: "
+                            android:textColor="@color/text_color_description"
+                            android:textSize="@dimen/_10sdp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/name_text" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <!--Vehicle Card View Details-->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/vehicle_cardview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    app:cardBackgroundColor="@color/background_color"
+                    app:cardCornerRadius="@dimen/_8sdp"
+                    app:cardElevation="@dimen/_20sdp"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/driver_licesne_card_view">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/_20sdp"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_10sdp"
+
+                        >
+
+                        <ImageView
+                            android:id="@+id/drawable"
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:src="@drawable/bus"
+                            app:layout_constraintEnd_toStartOf="@id/title"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:tint="@color/purple_200" />
+
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/rubik_medium"
+                            android:text="@string/vehicle_info"
+                            android:textColor="@color/purple_200"
+                            android:textSize="@dimen/_14sdp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias=".0"
+                            app:layout_constraintStart_toEndOf="@id/drawable"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/vehicle_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="@font/rubik_light"
+                            android:text="@string/vehicle_id"
+                            android:textColor="@color/purple_200"
+                            android:textSize="@dimen/_14sdp"
+                            app:layout_constraintStart_toStartOf="@id/drawable"
+                            app:layout_constraintTop_toBottomOf="@id/title" />
+
+                        <TextView
+                            android:id="@+id/vehicleID"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="@font/rubik_medium"
+                            android:gravity="start"
+                            android:text=" "
+                            android:textColor="@color/purple_200"
+                            android:textSize="@dimen/_14sdp"
+                            app:layout_constraintHorizontal_bias=".2"
+                            app:layout_constraintStart_toEndOf="@id/vehicle_id"
+                            app:layout_constraintTop_toBottomOf="@id/title" />
+
+                        <TextView
+                            android:id="@+id/vehicle_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="@font/rubik_light"
+                            android:text="@string/vehicle_model"
+                            android:textColor="@color/purple_200"
+                            android:textSize="@dimen/_14sdp"
+                            app:layout_constraintStart_toStartOf="@id/drawable"
+                            app:layout_constraintTop_toBottomOf="@id/vehicle_id"
+                            app:layout_constraintEnd_toStartOf="@id/vehicle_Name_txt"
+                            app:layout_constraintBottom_toTopOf="@id/vehicle_number" />
+
+                        <TextView
+                            android:id="@+id/vehicle_Name_txt"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="@font/rubik_medium"
+                            android:gravity="start"
+                            android:textDirection="locale"
+                            android:text=" "
+                            android:textColor="@color/purple_200"
+                            android:textSize="@dimen/_14sdp"
+                            app:layout_constraintHorizontal_bias=".2"
+                            app:layout_constraintBottom_toBottomOf="@id/vehicle_name"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/vehicle_name"
+                            app:layout_constraintTop_toBottomOf="@id/vehicleID" />
+
+                        <TextView
+                            android:id="@+id/vehicle_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="@font/rubik_light"
+                            android:text="@string/license_plate"
+                            android:textColor="@color/purple_200"
+                            android:textSize="@dimen/_14sdp"
+                            app:layout_constraintStart_toStartOf="@id/drawable"
+                            app:layout_constraintTop_toBottomOf="@id/vehicle_name" />
+
+
+                        <TextView
+                            android:id="@+id/vehicle_Number_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="@font/rubik_medium"
+                            android:gravity="start"
+                            android:text=" "
+                            android:textColor="@color/purple_200"
+                            android:textSize="@dimen/_14sdp"
+                            app:layout_constraintHorizontal_bias=".2"
+                            app:layout_constraintStart_toEndOf="@id/vehicle_number"
+                            app:layout_constraintTop_toBottomOf="@id/vehicle_Name_txt" />
+
+
+                        <TextView
+                            android:id="@+id/vehicle_color"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="@font/rubik_light"
+                            android:text="@string/vehicle_color"
+                            android:textColor="@color/purple_200"
+                            android:textSize="@dimen/_14sdp"
+                            app:layout_constraintStart_toStartOf="@id/drawable"
+                            app:layout_constraintTop_toBottomOf="@id/vehicle_number" />
+
+
+                        <View
+                            android:id="@+id/vehicle_Color_txt"
+                            android:layout_width="@dimen/_33sdp"
+                            android:layout_height="@dimen/_13sdp"
+                            app:layout_constraintBottom_toBottomOf="@id/vehicle_color"
+                            app:layout_constraintHorizontal_bias=".2"
+                            app:layout_constraintStart_toEndOf="@id/vehicle_color"
+                            app:layout_constraintTop_toTopOf="@id/vehicle_color"
+                            app:layout_constraintVertical_bias=".9" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <!--Location Card View Details-->
+
+                <!--Email Card View Details-->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/driver_email_card_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    app:cardBackgroundColor="@color/background_color"
+                    app:cardCornerRadius="@dimen/_8sdp"
+                    app:cardElevation="@dimen/_20sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/card_view_2">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/_20sdp"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_10sdp"
+
+                        >
+
+                        <ImageView
+                            android:id="@+id/drawable_email"
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:src="@drawable/ic_email"
+                            app:layout_constraintEnd_toStartOf="@id/email_title"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="@id/email_title"
+                            app:layout_constraintTop_toTopOf="@id/email_title"
+                            app:tint="@color/purple_200" />
+
+                        <TextView
+                            android:id="@+id/email_title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/rubik_medium"
+                            android:text="@string/driver_email"
+                            android:textColor="@color/purple_200"
+                            android:textSize="@dimen/_14sdp"
+                            app:layout_constraintHorizontal_bias=".0"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/drawable_email"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/edit_email"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/rubik_light"
+                            android:text=" "
+                            android:textDirection="locale"
+                            android:gravity="start"
+                            android:textColor="@color/purple_200"
+                            android:textSize="@dimen/_14sdp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/email_title" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <!--Email Card View Details-->
+
+                <!--Mobile Card View Details-->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/driver_mobile_card_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    app:cardBackgroundColor="@color/background_color"
+                    app:cardCornerRadius="@dimen/_8sdp"
+                    app:cardElevation="@dimen/_20sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/driver_email_card_view">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/_20sdp"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_10sdp"
+
+                        >
+
+                        <ImageView
+                            android:id="@+id/mobile_icon"
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:src="@drawable/mobile_icon"
+                            app:layout_constraintEnd_toStartOf="@id/mobile_title"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="@id/mobile_title"
+                            app:layout_constraintTop_toTopOf="@id/mobile_title"
+                            app:tint="@color/purple_200" />
+
+                        <TextView
+                            android:id="@+id/mobile_title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/rubik_medium"
+                            android:text="@string/driver_mobile"
+                            android:textColor="@color/purple_200"
+                            android:textSize="@dimen/_14sdp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias=".0"
+                            app:layout_constraintStart_toEndOf="@id/mobile_icon"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/edit_mobile"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="@font/rubik_light"
+                            android:text=" "
+                            android:textColor="@color/purple_200"
+                            android:textSize="@dimen/_14sdp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/mobile_title" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <!--Mobile Card View Details-->
+
+                <!--License Card View Details-->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/driver_licesne_card_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    app:cardBackgroundColor="@color/background_color"
+                    app:cardCornerRadius="@dimen/_8sdp"
+                    app:cardElevation="@dimen/_20sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/driver_mobile_card_view">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/_20sdp"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_10sdp"
+
+                        >
+
+                        <ImageView
+                            android:id="@+id/license_icon"
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:src="@drawable/license2"
+                            app:layout_constraintEnd_toStartOf="@id/license_title"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="@id/license_title"
+                            app:layout_constraintTop_toTopOf="@id/license_title"
+                            app:tint="@color/purple_200" />
+
+                        <TextView
+                            android:id="@+id/license_title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/rubik_medium"
+                            android:text="@string/driver_license"
+                            android:textColor="@color/purple_200"
+                            android:textSize="@dimen/_14sdp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias=".0"
+                            app:layout_constraintStart_toEndOf="@id/license_icon"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/edit_license"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="@font/rubik_light"
+                            android:text=" "
+                            android:textColor="@color/purple_200"
+                            android:textSize="@dimen/_14sdp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/license_title" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <!--License Card View Details-->
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </ScrollView>
+
+    </FrameLayout>
+</layout>

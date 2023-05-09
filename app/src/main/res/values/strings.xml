@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Parent App</string>
+    <string name="access_token">pk.eyJ1IjoiaG9zc2Ftc2FkZWtrIiwiYSI6ImNrejEzbWxxdjA0djUybm12MTRpaDR3cXUifQ.h4GGusoE5rZ5kSLgrCwyTQ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="number">Number</string>
+    <string name="email">Email</string>
+    <string name="login">Log In</string>
+    <string name="sign_up">Get Started</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="notHaveAccount">Don\'t have an account? </string>
+    <string name="haveAccount">Already have an account? </string>
+    <string name="home_page">Home Page</string>
+    <string name="how_many_kids">How many Kids?</string>
+    <string name="child_details">Child Details</string>
+    <string name="children_names">Children\'s Names</string>
+    <string name="address">Address</string>
+    <string name="log_in">Log In</string>
+    <string name="dont_have_an_account">Do You Have An Account?</string>
+    <string name="driver">Driver</string>
+    <string name="information">Information</string>
+    <string name="driver_email">Driver Email</string>
+    <string name="driver_mobile">Driver Mobile</string>
+    <string name="driver_license">Driver License</string>
+    <string name="vehicle_info">Vehicle Info</string>
+    <string name="vehicle_id">Vehicle ID:</string>
+    <string name="vehicle_model">Vehicle Model:</string>
+    <string name="license_plate">License Plate:</string>
+    <string name="vehicle_color">Vehicle Color:</string>
+    <string name="my">My</string>
+    <string name="profile">Profile</string>
+    <string name="parent_email">Email</string>
+    <string name="location">Location</string>
+    <string name="edit_location">Edit Location</string>
+    <string name="mobile">Mobile</string>
+    <string name="save">Save</string>
+
+</resources>

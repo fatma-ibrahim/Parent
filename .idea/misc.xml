@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CSI/4/GitHub/app/src/main/res/drawable-anydpi/ic_check.xml" value="0.1" />
+        <entry key="..\:/CSI/4/GitHub/app/src/main/res/drawable-anydpi/ic_check_mark.xml" value="0.1" />
+        <entry key="..\:/CSI/4/GitHub/app/src/main/res/drawable-anydpi/ic_email.xml" value="0.1" />
+        <entry key="..\:/CSI/4/GitHub/app/src/main/res/drawable-anydpi/ic_error.xml" value="0.1" />
+        <entry key="..\:/CSI/4/GitHub/app/src/main/res/drawable-anydpi/ic_person.xml" value="0.1" />
+        <entry key="..\:/CSI/4/GitHub/app/src/main/res/drawable-anydpi/ic_phone.xml" value="0.1" />
+        <entry key="..\:/CSI/4/GitHub/app/src/main/res/drawable/image_icon.xml" value="0.1" />
+        <entry key="..\:/CSI/4/GitHub/app/src/main/res/layout/activity_children_details.xml" value="0.20364583333333333" />
+        <entry key="..\:/CSI/4/GitHub/app/src/main/res/layout/activity_home_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/CSI/4/GitHub/app/src/main/res/layout/activity_login.xml" value="0.1461187214611872" />
+        <entry key="..\:/CSI/4/GitHub/app/src/main/res/layout/activity_sign_up.xml" value="0.20364583333333333" />
+        <entry key="..\:/Users/Hossam/parent-app/ParentSplashScreen/app/src/main/res/drawable/onboarding_indicator_active.xml" value="0.2595" />
+        <entry key="..\:/Users/Hossam/parent-app/ParentSplashScreen/app/src/main/res/drawable/onboarding_indicator_inactive.xml" value="0.2595" />
+        <entry key="..\:/Users/Hossam/parent-app/ParentSplashScreen/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Hossam/parent-app/ParentSplashScreen/app/src/main/res/layout/activity_on_boarding.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Hossam/parent-app/ParentSplashScreen/app/src/main/res/layout/activity_splash.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Hossam/parent-app/ParentSplashScreen/app/src/main/res/layout/dashboard2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Hossam/parent-app/ParentSplashScreen/app/src/main/res/layout/dashboard3.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Hossam/parent-app/ParentSplashScreen/app/src/main/res/layout/dashboard4.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Hossam/parent-app/ParentSplashScreen/app/src/main/res/layout/dashboarditem1.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Hossam/parent-app/ParentSplashScreen/app/src/main/res/layout/footer.xml" value="0.4" />
+        <entry key="..\:/Users/Hossam/parent-app/ParentSplashScreen/app/src/main/res/layout/fragment_blank.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Hossam/parent-app/ParentSplashScreen/app/src/main/res/layout/fragment_children.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Hossam/parent-app/ParentSplashScreen/app/src/main/res/layout/fragment_driver.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Hossam/parent-app/ParentSplashScreen/app/src/main/res/layout/fragment_school.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Hossam/parent-app/ParentSplashScreen/app/src/main/res/layout/fragment_tracking.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Hossam/parent-app/ParentSplashScreen/app/src/main/res/layout/onboarding_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/fatma/AndroidStudioProjects/parent-app/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/fatma/AndroidStudioProjects/parent-app/app/src/main/res/layout/activity_on_boarding.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/fatma/AndroidStudioProjects/parent-app/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/fatma/AndroidStudioProjects/parent-app/app/src/main/res/layout/open_gps_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/drawable-anydpi/background_fab.xml" value="0.1805" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/drawable-v24/background_fab2.xml" value="0.15" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/drawable-v24/custom_input_2.xml" value="0.1815" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/drawable-v24/ic_baseline_logout_24.xml" value="0.15" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/drawable/color_rectangle.xml" value="0.1365" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/drawable/custom_input.xml" value="0.1745" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1105" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/drawable/text_rounded.xml" value="0.182" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/activity_children_details.xml" value="0.24682971014492755" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/activity_home_page.xml" value="0.24682971014492755" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/activity_image_picker.xml" value="0.103125" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/activity_location_option.xml" value="0.38289036544850497" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/activity_login.xml" value="0.24682971014492755" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/activity_main.xml" value="0.20489573889392565" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/activity_on_boarding.xml" value="0.24003623188405798" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/activity_sign_up.xml" value="0.24682971014492755" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/activity_splash.xml" value="0.24003623188405798" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/child_dialog_view.xml" value="0.2" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/child_item_view.xml" value="0.4" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/choose_gps.xml" value="0.20398912058023572" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/fragment_children.xml" value="0.1" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/fragment_driver.xml" value="0.24003623188405798" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/fragment_tracking.xml" value="0.1734375" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/fragment_user_profile.xml" value="0.264" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/onboarding_item.xml" value="0.24003623188405798" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/open_gps_dialog.xml" value="0.264" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/tabs.xml" value="0.20580235720761558" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/layout/themes.xml" value="0.20398912058023572" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/menu/tabs.xml" value="0.16" />
+        <entry key="..\:/git_final_parent/parent-app/app/src/main/res/xml/tabs.xml" value="0.20580235720761558" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/drawable/image_icon.xml" value="0.2595" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/drawable/onboarding_indicator_active.xml" value="0.2595" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/drawable/onboarding_indicator_inactive.xml" value="0.2595" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/drawable/oval_shape_profile.xml" value="0.2595" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/layout/activity_on_boarding.xml" value="0.25416666666666665" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/layout/dashboard2.xml" value="0.25416666666666665" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/layout/dashboard3.xml" value="0.25416666666666665" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/layout/dashboard4.xml" value="0.25416666666666665" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/layout/dashboarditem1.xml" value="0.25416666666666665" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/layout/footer.xml" value="0.25416666666666665" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/layout/fragment_children.xml" value="0.25416666666666665" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/layout/fragment_driver.xml" value="0.25416666666666665" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/layout/fragment_tracking.xml" value="0.25416666666666665" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/layout/fragment_user_profile.xml" value="0.264" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/layout/onboarding_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/layout/provider_paths.xml" value="0.11302083333333333" />
+        <entry key="..\:/graduation project/Parent-App/app/src/main/res/xml/provider_paths.xml" value="0.11302083333333333" />
+        <entry key="..\:/parent-app-v4/app/src/main/res/layout/fragment_driver.xml" value="0.20416666666666666" />
+        <entry key="..\:/parent-app/app/src/main/res/layout/fragment_driver.xml" value="0.1743659420289855" />
+        <entry key="..\:/parent-app/app/src/main/res/layout/fragment_user_profile.xml" value="0.1743659420289855" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

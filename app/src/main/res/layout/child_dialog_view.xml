@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FC0E1120"
+        android:padding="@dimen/_9sdp"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_input"
+            android:padding="@dimen/_4sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/child_image"
+                android:layout_width="99dp"
+                android:layout_height="99dp"
+                android:src="@drawable/user_profile"
+                app:civ_border_color="@color/purple_200"
+                app:civ_border_width="2dp"
+                app:civ_circle_background_color="@color/purple_200"
+                app:layout_constraintBottom_toTopOf="@id/child_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                android:id="@+id/child_name"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/custom_input"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:hint="Child Name"
+                android:textColorHint="@color/purple_200"
+                android:inputType="text"
+                android:textColor="@color/purple_200"
+                android:fontFamily="@font/rubik_light"
+                app:layout_constraintBottom_toTopOf="@id/child_age"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/child_image" />
+
+            <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                android:id="@+id/child_age"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/custom_input"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:hint="Child Age"
+                android:textColorHint="@color/purple_200"
+                android:maxLength="2"
+                android:inputType="numberDecimal"
+                android:textColor="@color/purple_200"
+                android:fontFamily="@font/rubik_light"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/child_name" />
+
+            <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                android:id="@+id/child_class"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/custom_input"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:hint="Child Class"
+                android:textColorHint="@color/purple_200"
+                android:inputType="text"
+                android:textColor="@color/purple_200"
+                android:fontFamily="@font/rubik_light"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/child_age" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ms_background_color="@color/background_color"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:textColor="@color/purple_200"
+                android:fontFamily="@font/rubik_light"
+                android:background="@drawable/custom_input"
+                app:layout_constraintTop_toBottomOf="@id/child_class"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/save_child_info"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_70sdp"
+                android:layout_marginEnd="@dimen/_70sdp"
+                android:fontFamily="@font/rubik_medium"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textColor="@color/purple_200"
+                android:textSize="@dimen/_12sdp"
+                app:backgroundTint="@color/background_color"
+                android:layout_marginTop="@dimen/_8sdp"
+                app:cornerRadius="@dimen/_14sdp"
+                app:layout_constraintTop_toBottomOf="@id/spinner"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:strokeColor="@color/purple_200"
+                app:strokeWidth="@dimen/_1sdp" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
